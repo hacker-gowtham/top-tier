@@ -147,6 +147,7 @@ textarea {
 .foot-color {
   background-color: #0e1f32;
 }
+
 @media only screen and (max-width: 750px) {
     .top-bar {
         display:none;

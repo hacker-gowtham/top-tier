@@ -16,6 +16,16 @@
     <!-- -----------------------------------css file link------------------------------->
     <link rel="stylesheet" href="style.css">
     <!-- ------------------------------------------------------------------------------------ -->
+  
+    <script defer src="index.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("wefukI6OXSh6IEsxm");
+})();
+</script>
 </head>
 <body>
 
@@ -91,6 +101,8 @@
 
     <!-- ------------------------------Banner Section --------------------------------------- -->
     <div class="banner">
+      <div class="row">
+        <div class="col">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             
             <div class="carousel-inner">
@@ -102,6 +114,7 @@
                  
                   <p class="mt-5 sub-heading md-mx-5">Top Tier Driving School: Your path to confident and secure road navigation, guided by experts with comprehensive training.</p>
                   <button class=" btn  btn-primary mt-3 mb-3 letter fw-bold">GET STARTED <img src="./icon/arrow-right-bold.svg"/></button>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -115,6 +128,7 @@
                   <p class="mt-5 sub-heading mx-5">Top Tier Driving School: Your path to confident and secure road navigation, guided by experts with comprehensive training.</p>
                   <button class="btn btn-primary mt-5 mb-5 letter fw-bold">GET STARTED <img src="./icon/arrow-right-bold.svg"/></button>
                   </div>
+                </div>
                 </div>
               </div>
               
@@ -269,7 +283,7 @@
 
 
     <!-- --------------------------------------contact us--------------------------------------- -->
-  <div class="contact">
+  <form class="contact">
       <div class="container letter fs-5">
         <div class="row ">
           <div class="col text-center">
@@ -281,33 +295,33 @@
           <div class="form-adjus">
         <div class="row mt-5 ">
           <div class="col-md-6">
-           <p class="fw-bold">Your name</p>
-           <input type="text" placeholder="your name here" class="p-3 fs-6 bg-light"/>
+           <p class="fw-bold"  id="name">Your name</p>
+           <input type="text" id="name" required placeholder="your name here" class="p-3 fs-6 bg-light"/>
           </div>
           <div class="col-md-6">
-             <p class="fw-bold">Your Email</p>
-             <input type="email" placeholder="your email here" class="p-3 fs-6 bg-light"/>
+             <p class="fw-bold" >Your Email</p>
+             <input type="email" id="mail" required placeholder="your email here" class="p-3 fs-6 bg-light"/>
           </div>
         </div>
         <div class="row mt-5">
           <div class="col-md-6">
-            <p class="fw-bold">Your Phone</p>
-            <input type="text"placeholder="your number here" class="p-3 fs-6 bg-light"/>
+            <p class="fw-bold" >Your Phone</p>
+            <input type="text" id="number" required placeholder="your number here" class="p-3 fs-6 bg-light"/>
           </div>
           <div class="col-md-6">
-            <p class="fw-bold">Class Type</p>
-            <input type="text"placeholder="Choose here" class="p-3 fs-6 bg-light"/>
+            <p class="fw-bold" >Class Type</p>
+            <input type="text" id="type" required  placeholder="Choose here" class="p-3 fs-6 bg-light"/>
           </div>
         </div>
         <div class="row mt-5">
           <div class="col">
             <p class="fw-bold">Message</p>
-            <textarea class="bg-light" id=""></textarea>
+            <textarea class="bg-light" id="message"></textarea>
           </div>
         </div>
         <div class="row ">
           <div class="col">
-            <button class="btn btn-primary  text-center">Submit</button> 
+            <button   onclick="sendmail()" class="btn btn-primary  text-center">Submit</button> 
           </div>
           
         </div>
@@ -315,7 +329,7 @@
         </div>
        
       </div>
-    </div>
+    </form>
 
     <!-- -----------------------------------------------link-------------------------------- -->
     <div class="link letter">
@@ -401,6 +415,16 @@
         </div>
       </div>
     
+
+      <script defer src="index.js"></script>
+      <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+  (function(){
+    emailjs.init("wefukI6OXSh6IEsxm");
+  })();
+  </script>
     
 </body>
 </html>
