@@ -1,5 +1,6 @@
 //emailjs
-function sendmail(){
+function sendmail(e){
+   
     console.log("gowtham");
     var params = {
         from_name: document.getElementById("name").value,
@@ -10,6 +11,6 @@ function sendmail(){
      }
      console.log(params);
      emailjs.send('service_tbzn7wd','template_qaurv6x',params).then(function(res){
-         alert("success !"+ res.status);
+         alert("Mail send successfully");
      });
 }

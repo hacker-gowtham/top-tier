@@ -64,6 +64,29 @@ body {
   font-weight: 900;
   color: black !important;
 }
+.b-image{
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
+  background-position:center;
+  
+}
+.div1{
+  width: 60%;
+  background-color:#0e1f3283 ;
+  margin-top: 10%;
+  
+}
+.div1 h1{
+  letter-spacing: 2px;
+}
+.img-1{
+  background-image: url('/Frame 119.jpg');
+}
+.img-2{
+  background-image: url('/Rectangle 10.jpg');
+}
 
 .content-color {
   background-color: #0e1f3283;
@@ -85,6 +108,7 @@ body {
   font-weight: 900;
   font-family: DM Sans;
 }
+
 
 /* about */
 .about-text {
@@ -147,6 +171,11 @@ textarea {
 .foot-color {
   background-color: #0e1f32;
 }
+/* 
+.image{
+  background-image: url('./image/car-2.svg');
+  hei
+} */
 
 @media only screen and (max-width: 750px) {
     .top-bar {
@@ -166,14 +195,11 @@ textarea {
         .sub-heading {
             font-size: 18px; /* Adjust the font size as needed */
         }
-    }
-}
-@media (min-width: 768px) and (max-width: 500px) {
-    /* Add your custom CSS styles for smaller screens here */
-    .heading {
-        font-size: 10px; /* Adjust the font size as needed */
-    }
-    .sub-heading {
-        font-size: 10px; /* Adjust the font size as needed */
+        .div1{
+          width: 80%;
+          background-color:#0e1f3283 ;
+          margin-top: 10%;
+          
+        }
     }
 }
