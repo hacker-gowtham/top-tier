@@ -65,10 +65,9 @@ body {
   color: black !important;
 }
 .b-image{
-  height: 90vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size:cover;
- 
   background-position:center;
   
 }
@@ -85,7 +84,7 @@ body {
   background-image: url('/Frame 119.jpg');
 }
 .img-2{
-  background-image: url('/Rectangle 10.jpg');
+  background-image: url('/car-two.png');
 }
 
 .content-color {
@@ -117,7 +116,7 @@ body {
 .about-text {
   font-family: DM Sans;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .font-head{
     font-family: Noto Music;
