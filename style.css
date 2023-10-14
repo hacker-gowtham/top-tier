@@ -146,6 +146,7 @@ body {
   /* background-color: red; */
 }
 
+
 /* form */
 
 input {
@@ -200,13 +201,20 @@ textarea {
         display: none;
         
       }
+      .navbar.fixed-top {
+        position: fixed;
+        
+        width: 100%;
+        z-index: 1000;
+        background-color: #ffff;
+      }
 
       @media (max-width: 768px) {
         /* Add your custom CSS styles for smaller screens here */
         .heading {
             font-size: 24px; /* Adjust the font size as needed */
         }
-        .sub-heading {
+        .sub-heading {  
             font-size: 18px; /* Adjust the font size as needed */
         }
         .div1{
@@ -218,5 +226,6 @@ textarea {
         .border-1 {
           border: 1px solid rgb(221, 210, 210);
         }
+        
     }
 }
