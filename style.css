@@ -203,10 +203,13 @@ textarea {
       }
       .navbar.fixed-top {
         position: fixed;
-        
+        height: 90px;
         width: 100%;
         z-index: 1000;
         background-color: #ffff;
+      }
+      .cus-logo{
+        height: 70px;
       }
 
       @media (max-width: 768px) {

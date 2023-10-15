@@ -16,18 +16,18 @@ function sendmail(e){
 }
 
 
-  // Function to add or remove the 'fixed-top' class based on screen width
-  function handleNavbarSticky() {
-    var navbar = document.querySelector('.navbar');
-    if (window.innerWidth < 750) {
-      navbar.classList.add('fixed-top');
-    } else {
-      navbar.classList.remove('fixed-top');
-    }
-  }
+  // // Function to add or remove the 'fixed-top' class based on screen width
+  // function handleNavbarSticky() {
+  //   var navbar = document.querySelector('.navbar');
+  //   if (window.innerWidth < 750) {
+  //     navbar.classList.add('fixed-top');
+  //   } else {
+  //     navbar.classList.remove('fixed-top');
+  //   }
+  // }
 
-  // Initial call to set the class based on the page load
-  handleNavbarSticky();
+  // // Initial call to set the class based on the page load
+  // handleNavbarSticky();
 
-  // Listen for window resize events and adjust the class
-  window.addEventListener('resize', handleNavbarSticky);
+  // // Listen for window resize events and adjust the class
+  // window.addEventListener('resize', handleNavbarSticky);
