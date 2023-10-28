@@ -84,10 +84,10 @@ body {
   letter-spacing: 2px;
 }
 .img-1{
-  background-image: url('/Frame 119.jpg');
+  background-image: url('/image/banner-main1.jpg');
 }
 .img-2{
-  background-image: url('/car-two.png');
+  background-image: url('/image/banner-main2.jpg');
 }
 
 .content-color {
@@ -163,6 +163,13 @@ textarea {
   width: 100%;
   height: 200px;
 }
+.bg-color{
+  background-color: #051424;
+  
+}
+.blue-text{
+  color: #051424 !important;
+}
 .form-font {
   font-family: DM Sans;
   font-size: 20px;
@@ -209,7 +216,7 @@ textarea {
         background-color: #ffff;
       }
       .cus-logo{
-        height: 70px;
+        height: 50px !important;
       }
 
       @media (max-width: 768px) {
