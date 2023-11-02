@@ -110,8 +110,12 @@ body {
   font-weight: 900;
   font-family: DM Sans;
 }
+
 .cus-logo{
   height: 100px;
+}
+.custom-toggler.navbar-toggler {
+  border-color: white;
 }
 .border-light{
   border-color: #d8dadd !important;
@@ -191,7 +195,7 @@ textarea {
   height: 20px;
 }
 .foot-color {
-  background-color: #0e1f32;
+  background-color: #051424;
 }
 /* 
 .image{
@@ -215,10 +219,8 @@ textarea {
         z-index: 1000;
         background-color: #ffff;
       }
-      .cus-logo{
-        height: 50px !important;
-      }
-
+    
+    
       @media (max-width: 768px) {
         /* Add your custom CSS styles for smaller screens here */
         .heading {
@@ -227,6 +229,10 @@ textarea {
         .sub-heading {  
             font-size: 18px; /* Adjust the font size as needed */
         }
+        .cus-logo{
+          height: 70px;
+        }
+       
         .div1{
           width: 90%;
           background-color:#0e1f3283 ;
