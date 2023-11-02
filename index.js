@@ -16,6 +16,9 @@ function sendmail(e){
 }
 
 
+
+
+
   // // Function to add or remove the 'fixed-top' class based on screen width
   // function handleNavbarSticky() {
   //   var navbar = document.querySelector('.navbar');
